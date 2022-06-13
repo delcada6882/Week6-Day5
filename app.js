@@ -22,7 +22,7 @@ $('.submit').on('click', function(){
             </div>
         </div>
     </div>
-    `)
+    `);
 
     $('#displayName').val("");
     $('#comment').val("");
@@ -51,5 +51,5 @@ $('#commentSection').on('click', '.editSubmit', function(){
     let changeMaterial = $(changeMaterialParent).children()[2];
     $(changeMaterial).toggleClass('noDisplay');
     
-    $(newUserCommentInput).val("")
+    $(newUserCommentInput).val("");
 });
