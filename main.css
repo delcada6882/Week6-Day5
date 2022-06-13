@@ -1,0 +1,171 @@
+body {
+    background-color: #dce1eb;
+    background-position: center center;
+    margin: 0;
+    padding: 0;
+}
+
+
+#mainPost {
+    position: fixed;
+    left: 3.643%;
+    margin-top: 0;
+    background-color: white;
+    width: 90%;
+    font-family: 'nunito sans';
+    padding: 20px;
+}
+.mainComment {
+    font-size: 54px;
+    margin: 5px 0 0 0;
+}
+
+
+.mainUserName {
+    color: gray;
+    font-size: 20px;
+    margin: 0;
+    font-weight: 600;
+}
+
+
+#makeComment {
+    position: fixed;
+    left: 3.643%;
+    bottom: 0;
+    background-color: white;
+    width: 90%;
+    font-family: 'nunito sans';
+    padding: 20px;
+}
+#makeComment form {
+    display: flex;
+    align-items: center;
+}
+
+
+.displayNameForm input{
+    width: 100%; 
+    height: 30px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+.displayNameForm {
+    width: 110%;
+}
+
+
+.commentForm input{
+    height: 30px;
+    width: 97%;
+    font-size: 20px;
+    margin-left: 1.5%;
+    border-radius: 5px;
+}
+.commentForm {
+    width: 400%;
+}
+
+
+.submit h1 {
+    font-size: 25px;
+    margin: 0;
+    margin-left: 1%;
+    color: #2a6dd8;
+}
+.submit {
+    align-self: flex-end;
+}
+.submit:hover {
+    cursor: pointer;
+}
+
+
+#commentSection {
+    display: flex;
+    flex-flow: column-reverse;
+    justify-content: flex-end;
+    background-color: #b3bfd3;
+    margin-left: 3.643%;
+    width: 90%;
+    min-height: 625px;
+    font-family: 'nunito sans';
+    padding: 20px;
+    padding-top: 240px;
+    padding-bottom: 85px;
+}
+
+.commentPost {
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    margin-bottom: 10px;
+}
+.commentImage {
+    height: 75px;
+    width: 75px;
+}
+.commentImage img {
+    align-self: center;
+    height: 75px;
+    width: 75px;
+}
+.commentText {
+    margin-left: 10px;
+    display: flex;
+    flex-flow: column;
+    width: 117%;
+}
+.commentHeader {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+}
+.commentChange {
+    display: flex;
+    flex-flow: row;
+    width: 7%;
+    justify-content: space-between;
+    color: #2a6dd8;
+}
+.delete:hover {
+    cursor: pointer;
+}
+.edit:hover {
+    cursor: pointer;
+}
+.commentHeader p {
+    height: 27px;
+    font-size: 20px;
+    margin: 0;
+    margin-bottom: 5px;
+}
+.commentText h1 {
+    margin: 0;
+    height: 43px;
+    margin-bottom: 10px;
+}
+
+#editComment{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#editComment h1 {
+    font-size: 25px;
+    margin: 0;
+    height: 34px;
+    color: #2a6dd8;
+}
+#editComment h1:hover {
+    cursor: pointer;
+}
+#editComment input{
+    height: 22px;
+    width: 94%;
+    font-size: 18px;
+    border-radius: 5px;
+}
+#editComment.noDisplay {
+    display: none;
+}
